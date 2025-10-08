@@ -1,0 +1,67 @@
+# =============================================================================
+# Jupyter Notebook & Lab specific files
+# =============================================================================
+# Ignore the checkpoint directories that Jupyter creates automatically
+.ipynb_checkpoints/
+# Ignore user-specific Jupyter configuration
+.jupyter/
+# Ignore notebook extensions
+nbextensions/
+
+
+# =============================================================================
+# Python virtual environments
+# =============================================================================
+# Standard virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Ignore environment configuration files that may contain secrets
+.env
+*.env
+
+
+# =============================================================================
+# Python artifacts
+# =============================================================================
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# =============================================================================
+# IDE & Editor configuration
+# =============================================================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+
+# =============================================================================
+# Operating System generated files
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+
+# =============================================================================
+# Data files (Optional - Good Practice)
+# =============================================================================
+# It's best practice to not commit large data files to Git.
+# Uncomment the line below if you have a 'data' folder for datasets.
+# data/
