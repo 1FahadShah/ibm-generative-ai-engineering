@@ -1,0 +1,12 @@
+digraph ML_Pipeline {
+	rankdir=LR size="7,3"
+	node [fillcolor=lightyellow shape=ellipse style=filled]
+	A [label="Input Data"]
+	B [label="Learning Algorithm"]
+	C [label=Model]
+	D [label="Predictions / Actions"]
+	A -> B
+	B -> C
+	C -> D
+	label="Machine Learning Flow: Data → Learning → Model → Output"
+}
