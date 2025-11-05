@@ -1,0 +1,12 @@
+digraph DeepLearning {
+	rankdir=LR size="8,4"
+	node [fillcolor=lightblue shape=circle style=filled]
+	Input [label="Input Layer"]
+	H1 [label="Hidden Layer 1"]
+	H2 [label="Hidden Layer 2"]
+	Output [label="Output Layer"]
+	Input -> H1
+	H1 -> H2
+	H2 -> Output
+	label="Information Flow in Deep Neural Networks"
+}
